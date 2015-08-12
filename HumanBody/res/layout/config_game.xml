@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="430dp"
+    android:layout_height="340dp"
+    android:background="@color/BurlyWood"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            style="@style/configText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Dificuldade de Encaixe: " />
+
+        <TextView
+            android:id="@+id/configLabelDificuldadeEncaixe"
+            style="@style/configText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:text="0" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:orientation="horizontal"
+        android:weightSum="2" >
+
+        <TextView
+            style="@style/configText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_weight="1"
+            android:text="Fácil"
+            android:textSize="12sp" />
+
+        <TextView
+            style="@style/configText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:text="Difícil"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <SeekBar
+        android:id="@+id/configDificuldadeSeekbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="100"
+        android:progress="1" />
+
+    <CheckBox
+        android:id="@+id/checkBoxDestacarDestino"
+        style="@style/configText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Destacar órgão de Destino" />
+
+    <CheckBox
+        android:id="@+id/checkBoxLimiteErro"
+        style="@style/configText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Utilizar Limite de Erros"
+        android:visibility="gone" />
+
+    <CheckBox
+        android:id="@+id/checkBoxAtracao"
+        style="@style/configText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Arrastar para o destino objetos próximos" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/mainBtnConfirmarConfig"
+            style="@style/menuText"
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:background="@drawable/corner_background"
+            android:text="@string/label_confirmar" />
+
+        <Button
+            android:id="@+id/mainBtnSairConfig"
+            style="@style/menuText"
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/corner_background"
+            android:text="@string/label_cancelar" />
+    </LinearLayout>
+
+</LinearLayout>

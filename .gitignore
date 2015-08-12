@@ -5,3 +5,13 @@
 .DS_Store
 /build
 /captures
+/Engine/bin
+/HumanBody/bin
+/HumanBody/*.classpath
+/Engine/*.project
+/HumanBody/*.project
+/OpenGLExample/bin
+/PersistenceManager/bin
+/PersistenceManager/*.classpath
+/Tagarela/bin
+/TagarelaSynchronization/bin

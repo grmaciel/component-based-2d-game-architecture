@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Tagarela</string>
+    <!-- MENU -->
+    <string name="menu_importar_tagarela">Importar Dados Tagarela</string>
+    <string name="menu_importacao_puzzle">Simular Importação Puzzle</string>
+    
+    <!-- LABELS -->
+    <string name="btn_puzzle">Quebra Cabeças</string>
+    <string name="btn_exibir_plan_symbol">Exibir Planos e Símbolos</string>
+
+</resources>

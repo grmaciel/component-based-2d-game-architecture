@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Beige"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/mainBtnNovoJogo"
+        style="@style/menuText"
+        android:layout_width="500dp"
+        android:layout_height="120dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/corner_background"
+        android:text="@string/label_novo_jogo" />
+
+    <Button
+        android:id="@+id/mainBtnConfiguracoes"
+        style="@style/menuText"
+        android:layout_width="500dp"
+        android:layout_height="120dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/corner_background"
+        android:text="@string/label_configuracoes" />
+
+    <Button
+        android:id="@+id/mainBtnSair"
+        style="@style/menuText"
+        android:layout_width="500dp"
+        android:layout_height="120dp"
+        android:background="@drawable/corner_background"
+        android:text="@string/label_sair" />
+
+</LinearLayout>
